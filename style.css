@@ -1,0 +1,135 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+body{
+	background-color: #ffe5ea;;	
+	width: 720px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.tittle{
+	text-align: center;
+	color: #B35C91;
+	padding-top: 20px
+}
+
+.header{
+background-color: #433d95;
+text-align: center;
+color: white;
+padding: 10px
+}
+
+#card_1{
+background-color: white;
+margin-top: 17px;
+height: 280px;
+border-radius: 6px;
+}
+
+#card_1 p{
+	text-align: center;
+	padding: 10px 8px;
+}
+
+#card_2{
+background-color: white;
+margin-top: 17px;
+border-radius: 6px;
+}
+#card_2 h2{
+	color: #B35C91;
+	padding: 20px 10px;
+}
+#card_2 h3 , p{
+	padding: 8px 28px;
+}
+
+#card_3{
+background-color: white;
+margin-top: 17px;
+border-radius: 6px;
+}
+
+#card_3 h2{
+	color: #B35C91;
+	padding : 20px 10px;
+}
+#card_3 h3{
+	padding: 8px 28px;
+}
+
+.footer{
+	background-color : #433d95;
+	margin-top: 17px;
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
+
+/* ===== Tablets / Large Mobiles (max-width: 768px) ===== */
+@media (max-width: 768px) {
+    body{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .header h1{
+        font-size: 24px;
+    }
+
+    .tittle{
+        font-size: 20px;
+    }
+
+    #card_2 h2,
+    #card_3 h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+
+/* ===== Mobiles (max-width: 576px) ===== */
+@media (max-width: 576px) {
+    body{
+        max-width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .header h1{
+        font-size: 20px;
+    }
+
+    .tittle{
+        font-size: 18px;
+    }
+
+    #card_1, #card_2, #card_3{
+        margin-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    #card_2 h3,
+    #card_3 h3{
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+
+    p{
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .footer{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
